@@ -1,1 +1,1 @@
-Link to page: https://rinsworth.github.io/fa21-cse110-lab3
+Link to page: https://rinsworth.github.io/fa21-cse110-lab3/
