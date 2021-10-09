@@ -76,7 +76,7 @@ body{
 	font-size:18px;
 	color:#444;
 	padding:0 10px; 
-	background: rgb(191, 191, 191)
+	background: rgb(191, 191, 191) /* Grey-ish color for eyes ;o; */
 }
 
 #ending {
@@ -88,6 +88,7 @@ body{
   color: purple;
 }
 
+/* Roboto on all, potentially change to something monospace later */
 * {
   font-family: Roboto, Helvetica, sans-serif;
 }
@@ -115,7 +116,7 @@ a[target] {
 p, div ~ p{
 	font-weight: bold;
 }
-
+/*general two column grid format for easier reading*/
 .container {
   display: grid;
   grid-template-columns: 600px 600px;
