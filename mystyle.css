@@ -24,6 +24,12 @@ ul {
 	display: inline-block;
 }
 
+
+div + p {
+  background-color: yellow;
+}
+
+
 .Attendance {
 	align-items: flex-end 
 }
@@ -67,12 +73,25 @@ body{
 	margin:10ex auto;
 	max-width:75pc;
 	line-height:1.6;
-	font-family: Roboto, Helvetica, sans-serif;
 	font-size:18px;
 	color:#444;
 	padding:0 10px; 
 	background: rgb(191, 191, 191)
 }
+
+#ending {
+  text-align: center;
+  color: red;
+}
+
+#ending2 {
+  color: purple;
+}
+
+* {
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
 
 img{
   max-width: 90%;
@@ -80,13 +99,21 @@ img{
   width: 10cm;
 }
 
-audio {
+ul audio {
 	min-width: 100%
 
 }
 
-audio:hover {
+li > audio,video:hover {
 	background-color: yellow;
+}
+
+a[target] {
+  background-color: cyan;
+}
+
+p, div ~ p{
+	font-weight: bold;
 }
 
 .container {
